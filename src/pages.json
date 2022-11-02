@@ -1,0 +1,42 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "标准化模板"
+			}
+		},
+    {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "标准化模板"
+			}
+		}
+	],
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "black",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-bar/test.png",
+        "selectedIconPath": "static/tab-bar/test.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tab-bar/test.png",
+        "selectedIconPath": "static/tab-bar/test.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "标准化模板",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
