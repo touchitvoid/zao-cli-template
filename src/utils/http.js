@@ -1,9 +1,10 @@
 import http from "./request"
-import config from '../config'
+
+// console.log(process)
 
 const request = http.create({
-  timeout: 20000,
-  ...config
+  baseURL: 'http://localhost/test',
+  timeout: 20000
 })
 
 export default request

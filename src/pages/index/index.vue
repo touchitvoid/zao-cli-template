@@ -1,5 +1,5 @@
 <template>
-  <view class="content">
+  <view>
 
   </view>
 </template>
@@ -9,7 +9,8 @@
   import { onLoad } from '@dcloudio/uni-app'
 
   onLoad(async () => {
-    await HttpTest()
+    const { data } = await HttpTest()
+    console.log(data)
   })
 </script>
 
