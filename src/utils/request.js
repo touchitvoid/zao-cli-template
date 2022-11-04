@@ -1,12 +1,13 @@
 import Mock from "mockjs";
 /**
- * by. touchitvoid
  * 基于wx.request二次封装
+ * 支持mock模拟数据
  */
 class ZaoRequest {
   baseURL = ''
   timeout = 50000
   headers = {}
+
   constructor() {
     return this
   }
@@ -21,6 +22,7 @@ class ZaoRequest {
     })
     return this.send.bind(this)
   }
+
   /**
    * 发送请求create之后新实例绑定这个
    * @param options
